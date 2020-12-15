@@ -1,0 +1,51 @@
+
+
+    body {
+    background-color: hsl(0, 1%, 31%);
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+
+      .col-md-3
+      {
+      display: inline-block;
+      margin-left:-4px;
+      }
+
+      .carousel-indicators .active {
+      background-color:grey ;
+      }
+
+
+        .col-md-3 img{
+        width: 170px;
+        height: 200px;
+        }
+
+        body .carousel-indicator li{
+        background-color: blue;
+        }
+
+
+
+        .carousel-control-next-icon:after
+        {
+          content: '>';
+          font-size: 40px;
+          color: blue;
+        }
+
+        .carousel-control-prev-icon:after {
+          content: '<';
+          font-size: 40px;
+          color: blue;
+        }
+
+        body .no-padding{
+        padding-left: 0,
+        padding-right: 0
+        }
+
